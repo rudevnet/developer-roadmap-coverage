@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "developer roadmaps coverage"
+version = "0.1.0"
+description = ""
+authors = ["impocode <impocode@impocode.com>"]
+readme = "readme.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mkdocs = "^1.4.3"
+mkdocs-material = "^9.1.16"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
