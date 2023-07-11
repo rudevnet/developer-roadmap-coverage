@@ -28,6 +28,7 @@ markdown_extensions:
 
 nav:
   - Backend:
+    - backend/index.md
     - Интернет:
       - backend/100-internet/index.md
       - Как работает интернет:
