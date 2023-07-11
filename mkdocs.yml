@@ -1,0 +1,50 @@
+site_name: Developer Roadmap Coverage
+repo_url: https://github.com/rudevnet/developer-roadmap-coverage
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/theme-light-dark
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/theme-light-dark
+        name: Switch to light mode
+  features:
+    - navigation.indexes
+    - navigation.tabs
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+nav:
+  - Backend:
+    - Интернет:
+      - backend/100-internet/index.md
+      - Как работает интернет:
+        - Как работает интернет(MDN): backend/100-internet/100-how-does-the-internet-work/100-mdn-how-does-the-internet-work.md
+      - Что такое HTTP:
+        - backend/100-internet/101-what-is-http/index.md
+        - Обзор HTTP(MDN): backend/100-internet/101-what-is-http/100-mdn-an-overview-of-http.md
+      - Браузеры и как они работают:
+        - backend/100-internet/102-browsers-and-how-they-work/index.md
+        - Как работают браузеры(MDN): backend/100-internet/102-browsers-and-how-they-work/100-mdn-how-browsers-work.md
+      - DNS и как это работает:
+        - backend/100-internet/103-dns-and-how-it-works/index.md
+        - Как работает DNS(Комикс): backend/100-internet/103-dns-and-how-it-works/100-comic-how-dns-works.md
+      - Что такое Доменное Имя:
+        - backend/100-internet/104-what-is-domain-name/index.md
+        - Что такое доменные имена(MDN): backend/100-internet/104-what-is-domain-name/100-mdn-what-is-a-domain-name.md
+      - Что такое хостинг:
+        - backend/100-internet/105-what-is-hosting/index.md
+        - В чем разница между веб-страницей, веб-сайтом, веб-сервером и поисковой системой(MDN): backend/100-internet/105-what-is-hosting/100-mdn-pages-sites-servers-and-search-engines.md
+        - Что такое веб-сервер(MDN): backend/100-internet/105-what-is-hosting/101-mdn-what-is-a-web-server.md
